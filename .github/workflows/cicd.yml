@@ -27,7 +27,7 @@ jobs:
                   sleep 5
                   
             - name: Test server
-              run : curl http://localhost:50
+              run : curl http://localhost:5000
 
              
 
