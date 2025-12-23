@@ -1,0 +1,14 @@
+name:testing
+on:
+push:
+branches:
+  -main
+
+jobs:
+test:
+runs-on:ubuntu-latest
+
+steps:
+-name: check out code
+uses: actions/checkout@v2
+-name:setup node server
